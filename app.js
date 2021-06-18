@@ -1,6 +1,4 @@
-<script>
-
-var randomlinks=new Array()
+let randomlinks=new Array()
 
 randomlinks[0]="http://freewarejava.com"
 randomlinks[1]="http://javascriptkit.com"
@@ -12,6 +10,3 @@ function randomlink(){
 window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
 }
 
-</script>
-<form method="post">
-<p><input type="button" name="B1" value="Ir a mi Examen >>" onclick="randomlink()"></p> </form>
